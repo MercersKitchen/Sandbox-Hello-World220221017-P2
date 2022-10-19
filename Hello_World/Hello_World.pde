@@ -17,6 +17,9 @@ void setup() {
   String orientation = ( width >= height ) ? ls : p;
   println (DO, orientation);
   //
+  //If ORIENTATION is wrong ... feedback to change it
+  if () ;
+  //
   //Fit CANVAS into Display Monitor
   if ( width > displayWidth ) appWidth = 0; //CANVAS-width will not fit
   if ( height > displayHeight ) appHeight = 0; //CANVAS-height will not fit
