@@ -22,14 +22,16 @@ void setup() {
     //Fit CANVAS into Display Monitor
     if ( appWidth > displayWidth ) appWidth = 0; //CANVAS-width will not fit
     if ( appHeight > displayHeight ) appHeight = 0; //CANVAS-height will not fit
-    if ( appWidth != 0 && appHeight != 0 ) print("Display Geoemtry is Good to Go.");
-    if ( appWidth == 0 || appHeight == 0 ) println("STOP, is broken");
+    if ( appWidth != 0 && appHeight != 0 ) {
+      print("Display Geoemtry is Good to Go.");
+    } else {
+      println("STOP, is broken");
+    }
   }
   //
   //If ORIENTATION is wrong ... feedback to change it
   //if ( orientation==p ) println(instruct);
   //
-  
 } //End setup
 //
 void draw() {
