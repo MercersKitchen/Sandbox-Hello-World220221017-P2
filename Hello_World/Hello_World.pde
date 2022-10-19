@@ -20,3 +20,11 @@ void setup() {
   if ( appWidth != 0 && appHeight != 0 ) print("Display Geoemtry is Good to Go.");
   if ( appWidth == 0 || appHeight == 0 ) println("STOP, is broken");
 } //End setup
+//
+void draw() {} //End draw
+//
+void keyPressed() {} //End keyPressed
+//
+void mousePressed() {} //End mousePressed
+//
+// End Main Program
