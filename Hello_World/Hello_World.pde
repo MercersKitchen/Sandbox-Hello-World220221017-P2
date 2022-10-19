@@ -18,7 +18,7 @@ void setup() {
   println (DO, orientation);
   //
   //If ORIENTATION is wrong ... feedback to change it
-  if () ;
+  if ( orientation==p ) println(instruct);
   //
   //Fit CANVAS into Display Monitor
   if ( width > displayWidth ) appWidth = 0; //CANVAS-width will not fit
