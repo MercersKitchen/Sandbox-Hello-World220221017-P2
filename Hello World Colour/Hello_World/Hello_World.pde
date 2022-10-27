@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 float centerWidth, centerHeight, xStart, yStart, widthRect, heightRect;
 color black=#000000, white=#FFFFFF, purple=#FA00F6, yellow=#F8FC64;
+float thick, thin;
 //
 void setup() {
   //Declare Display Geometry: square, landscape, portrait
