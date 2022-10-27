@@ -1,5 +1,6 @@
 //Global Variables
 int appWidth, appHeight;
+float centerWidth, centerHeight, xStart, yStart, widthRect, heightRect;
 //
 void setup() {
   //Declare Display Geometry: square, landscape, portrait
