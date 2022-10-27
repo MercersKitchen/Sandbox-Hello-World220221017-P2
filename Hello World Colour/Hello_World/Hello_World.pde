@@ -50,11 +50,13 @@ void draw() {
   //Night Mode
   background(black);
   //
+  strokeWeight(thick); //noStroke()
   stroke(yellow);
   fill(purple);
   rect(xStart, yStart, widthRect, heightRect);
   fill(white);// Reset default
   stroke(black);//Reset default
+  strokeWeight(1);//Reset default
 } //End draw
 //
 void keyPressed() {
