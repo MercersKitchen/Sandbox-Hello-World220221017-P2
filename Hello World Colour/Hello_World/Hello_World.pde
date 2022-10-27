@@ -41,6 +41,8 @@ void setup() {
   yStart = centerHeight - ( appHeight * 1/4 ) ;;
   widthRect = appWidth * 1/2;
   heightRect = appHeight * 1/2;
+  thick = appWidth * 1/70;
+  thin =  appWidth * 1/140;
 } //End setup
 //
 void draw() {
