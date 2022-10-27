@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 float centerWidth, centerHeight, xStart, yStart, widthRect, heightRect;
 color black=#000000, white=#FFFFFF, purple=#FA00F6, yellow=#F8FC64;
+color yellowNightMode=#F8FC00, purpleNightMode=#FA0096;
 float thick, thin;
 //
 void setup() {
@@ -54,8 +55,8 @@ void draw() {
   background(black);
   //
   strokeWeight(thick); //noStroke()
-  stroke(yellow);
-  fill(purple);
+  stroke(yellow); //yellowNightMode
+  fill(purple); //purpleNightMode
   rect(xStart, yStart, widthRect, heightRect);
   fill(white);// Reset default
   stroke(black);//Reset default
