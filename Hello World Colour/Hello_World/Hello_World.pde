@@ -43,6 +43,8 @@ void setup() {
 } //End setup
 //
 void draw() {
+  background(225); //Gray Scale 0-255
+  //
   rect(xStart, yStart, widthRect, heightRect);
 } //End draw
 //
