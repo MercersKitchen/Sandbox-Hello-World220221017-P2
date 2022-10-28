@@ -1,10 +1,16 @@
 //Global Variables
+Boolean nightMode=false;
 //
 void setup() {}//End setup
 //
-void draw() {}//End draw
+void draw() {
+  println ("I am nocturnal.");
+  println("");
+}//End draw
 //
-void keyPressed() {}//End keyPressed
+void keyPressed() {
+  nightMode=true;
+}//End keyPressed
 //
 void mousePressed() {}//End mousePressed
 //
