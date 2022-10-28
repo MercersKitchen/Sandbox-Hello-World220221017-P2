@@ -4,12 +4,13 @@ Boolean nightMode=false;
 void setup() {}//End setup
 //
 void draw() {
-  println ("I am nocturnal.");
-  println("");
+  if ( nightMode==true ) println ("I am nocturnal.");
+  if ( nightMode==false ) println("");
 }//End draw
 //
 void keyPressed() {
-  nightMode=true;
+  if ( key=='N' || key=='n' ) nightMode=true;
+  if ( key==CODED && keyCode==LEFT ) nightMode=false;
 }//End keyPressed
 //
 void mousePressed() {}//End mousePressed
