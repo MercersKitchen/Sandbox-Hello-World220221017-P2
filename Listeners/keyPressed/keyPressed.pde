@@ -1,12 +1,12 @@
 //Global Variables
-Boolean nightMode=false;
+Boolean nightMode=false, ahhh=false;
 //
 void setup() {}//End setup
 //
 void draw() {
-  println("I am nocturnal.");
-  println("");
-  println("Where is the button");
+  if ( nightMode==true ) println("I am nocturnal.");
+  if ( nightMode=false ) println("");
+  if ( ahhh==true ) println("Where is the button");
 }//End draw
 //
 void keyPressed() {}//End keyPressed
